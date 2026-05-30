@@ -250,6 +250,7 @@ GameObject:
   m_Component:
   - component: {fileID: 130666502}
   - component: {fileID: 130666501}
+  - component: {fileID: 130666503}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -334,6 +335,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &130666503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130666500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &629775230
 GameObject:
   m_ObjectHideFlags: 0
@@ -716,7 +737,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1d91bf8c938bba147b1a90d22762b7f9, type: 3}
+  m_audioClip: {fileID: 8300000, guid: cd634370b94eafe499355dbfbee9845b, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.3
   m_Pitch: 1
@@ -1409,7 +1430,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1719337952 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 1022575615382146888, guid: 47fab3cbce97c9242a776f6b2805404e, type: 3}
+  m_CorrespondingSourceObject: {fileID: 1022575615382146888, guid: 47fab3cbce97c9242a776f6b2805404e,
+    type: 3}
   m_PrefabInstance: {fileID: 1022575615815929000}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1778588769
@@ -1554,55 +1576,78 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1022575615382146891, guid: 47fab3cbce97c9242a776f6b2805404e, type: 3}
+    - target: {fileID: 1022575615382146891, guid: 47fab3cbce97c9242a776f6b2805404e,
+        type: 3}
       propertyPath: infoPanel
       value: 
       objectReference: {fileID: 1305557863}
-    - target: {fileID: 6255664015978738326, guid: 47fab3cbce97c9242a776f6b2805404e, type: 3}
+    - target: {fileID: 1022575615382146893, guid: 47fab3cbce97c9242a776f6b2805404e,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8605ef9d66689e749b977d0104c03911, type: 3}
+    - target: {fileID: 1022575615382146934, guid: 47fab3cbce97c9242a776f6b2805404e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 050ff840802fde1498182be36939b3c0, type: 2}
+    - target: {fileID: 6255664015978738326, guid: 47fab3cbce97c9242a776f6b2805404e,
+        type: 3}
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 6255664015978738326, guid: 47fab3cbce97c9242a776f6b2805404e, type: 3}
+    - target: {fileID: 6255664015978738326, guid: 47fab3cbce97c9242a776f6b2805404e,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6255664015978738326, guid: 47fab3cbce97c9242a776f6b2805404e, type: 3}
+    - target: {fileID: 6255664015978738326, guid: 47fab3cbce97c9242a776f6b2805404e,
+        type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6255664015978738326, guid: 47fab3cbce97c9242a776f6b2805404e, type: 3}
+    - target: {fileID: 6255664015978738326, guid: 47fab3cbce97c9242a776f6b2805404e,
+        type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.49999997
       objectReference: {fileID: 0}
-    - target: {fileID: 6255664015978738326, guid: 47fab3cbce97c9242a776f6b2805404e, type: 3}
+    - target: {fileID: 6255664015978738326, guid: 47fab3cbce97c9242a776f6b2805404e,
+        type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6255664015978738326, guid: 47fab3cbce97c9242a776f6b2805404e, type: 3}
+    - target: {fileID: 6255664015978738326, guid: 47fab3cbce97c9242a776f6b2805404e,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6255664015978738326, guid: 47fab3cbce97c9242a776f6b2805404e, type: 3}
+    - target: {fileID: 6255664015978738326, guid: 47fab3cbce97c9242a776f6b2805404e,
+        type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6255664015978738326, guid: 47fab3cbce97c9242a776f6b2805404e, type: 3}
+    - target: {fileID: 6255664015978738326, guid: 47fab3cbce97c9242a776f6b2805404e,
+        type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6255664015978738326, guid: 47fab3cbce97c9242a776f6b2805404e, type: 3}
+    - target: {fileID: 6255664015978738326, guid: 47fab3cbce97c9242a776f6b2805404e,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6255664015978738326, guid: 47fab3cbce97c9242a776f6b2805404e, type: 3}
+    - target: {fileID: 6255664015978738326, guid: 47fab3cbce97c9242a776f6b2805404e,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6255664015978738326, guid: 47fab3cbce97c9242a776f6b2805404e, type: 3}
+    - target: {fileID: 6255664015978738326, guid: 47fab3cbce97c9242a776f6b2805404e,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8268818506753738476, guid: 47fab3cbce97c9242a776f6b2805404e, type: 3}
+    - target: {fileID: 8268818506753738476, guid: 47fab3cbce97c9242a776f6b2805404e,
+        type: 3}
       propertyPath: m_Name
       value: EarthSystem
       objectReference: {fileID: 0}
