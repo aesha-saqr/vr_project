@@ -16,6 +16,8 @@ public class UIManager : MonoBehaviour
         {
             infoText.text =
 
+                "EARTH\n" +
+
                 "• Third planet from the Sun\n" +
                 "• 71% covered by water\n" +
                 "• The only known planet with life";
