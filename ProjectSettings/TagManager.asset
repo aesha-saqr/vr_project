@@ -3,8 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+<<<<<<< HEAD
   tags:
   - Planet
+=======
+  tags: []
+>>>>>>> 7815f541d0e4df9f17612af7767b5abc161dfaca
   layers:
   - Default
   - TransparentFX

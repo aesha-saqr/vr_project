@@ -447,6 +447,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: JupiterPlanet
       objectReference: {fileID: 0}
+    - target: {fileID: 2270002496417953066, guid: 76dc83aed4fec08478ee0db09c800486,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 00336d60fa4e999459dc94e15b748131, type: 2}
     - target: {fileID: 7368615898672046221, guid: 76dc83aed4fec08478ee0db09c800486,
         type: 3}
       propertyPath: m_Name
