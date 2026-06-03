@@ -2,10 +2,8 @@ using UnityEngine;
 
 public class PlanetRotation : MonoBehaviour
 {
-    public float rotationSpeed = 100f;
-
     void Update()
     {
-        transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
+        transform.Rotate(0, 10 * Time.deltaTime, 0);
     }
 }
