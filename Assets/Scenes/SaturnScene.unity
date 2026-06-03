@@ -278,6 +278,7 @@ GameObject:
   - component: {fileID: 100543284}
   - component: {fileID: 100543283}
   - component: {fileID: 100543287}
+  - component: {fileID: 100543288}
   m_Layer: 0
   m_Name: Rock
   m_TagString: Untagged
@@ -293,7 +294,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100543282}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -373,6 +374,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 798ce0f5396e3ef4d95a74f6e7fb17b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &100543288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100543282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0516431c678231348b4e1a2c9481e6d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &252380277
@@ -801,6 +814,7 @@ GameObject:
   - component: {fileID: 577598085}
   - component: {fileID: 577598084}
   - component: {fileID: 577598088}
+  - component: {fileID: 577598089}
   m_Layer: 0
   m_Name: Rock (2)
   m_TagString: Untagged
@@ -816,7 +830,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 577598083}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -898,6 +912,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 798ce0f5396e3ef4d95a74f6e7fb17b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &577598089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577598083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0516431c678231348b4e1a2c9481e6d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &644153461
 GameObject:
   m_ObjectHideFlags: 0
@@ -911,6 +937,7 @@ GameObject:
   - component: {fileID: 644153464}
   - component: {fileID: 644153463}
   - component: {fileID: 644153462}
+  - component: {fileID: 644153467}
   m_Layer: 0
   m_Name: ' SaturnRing'
   m_TagString: Untagged
@@ -938,7 +965,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 644153461}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -1009,6 +1036,18 @@ Transform:
   m_Father: {fileID: 2270002496369658003}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 456, y: 0, z: 0}
+--- !u!114 &644153467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644153461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0516431c678231348b4e1a2c9481e6d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &748463588
 GameObject:
   m_ObjectHideFlags: 0
@@ -1265,6 +1304,7 @@ GameObject:
   - component: {fileID: 1169778886}
   - component: {fileID: 1169778885}
   - component: {fileID: 1169778884}
+  - component: {fileID: 1169778889}
   m_Layer: 0
   m_Name: ' SaturnRing (2)'
   m_TagString: Untagged
@@ -1292,7 +1332,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1169778883}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -1363,6 +1403,18 @@ Transform:
   m_Father: {fileID: 2270002496369658003}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 456, y: 0, z: 0}
+--- !u!114 &1169778889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169778883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0516431c678231348b4e1a2c9481e6d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1300228137
 GameObject:
   m_ObjectHideFlags: 0
@@ -1444,6 +1496,7 @@ GameObject:
   - component: {fileID: 1302651832}
   - component: {fileID: 1302651831}
   - component: {fileID: 1302651835}
+  - component: {fileID: 1302651836}
   m_Layer: 0
   m_Name: Rock (7)
   m_TagString: Untagged
@@ -1459,7 +1512,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1302651830}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1541,6 +1594,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 798ce0f5396e3ef4d95a74f6e7fb17b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1302651836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302651830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0516431c678231348b4e1a2c9481e6d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1304747458
 GameObject:
   m_ObjectHideFlags: 0
@@ -1554,6 +1619,7 @@ GameObject:
   - component: {fileID: 1304747461}
   - component: {fileID: 1304747460}
   - component: {fileID: 1304747459}
+  - component: {fileID: 1304747464}
   m_Layer: 0
   m_Name: ' SaturnRing (4)'
   m_TagString: Untagged
@@ -1581,7 +1647,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1304747458}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -1652,6 +1718,18 @@ Transform:
   m_Father: {fileID: 2270002496369658003}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 456, y: 0, z: 0}
+--- !u!114 &1304747464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304747458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0516431c678231348b4e1a2c9481e6d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1311273881
 GameObject:
   m_ObjectHideFlags: 0
@@ -1665,6 +1743,7 @@ GameObject:
   - component: {fileID: 1311273883}
   - component: {fileID: 1311273882}
   - component: {fileID: 1311273886}
+  - component: {fileID: 1311273887}
   m_Layer: 0
   m_Name: Rock (6)
   m_TagString: Untagged
@@ -1680,7 +1759,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1311273881}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1762,6 +1841,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 798ce0f5396e3ef4d95a74f6e7fb17b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1311273887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311273881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0516431c678231348b4e1a2c9481e6d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1417046422
 GameObject:
   m_ObjectHideFlags: 0
@@ -1774,10 +1865,11 @@ GameObject:
   - component: {fileID: 1417046424}
   - component: {fileID: 1417046423}
   - component: {fileID: 1417046427}
-  - component: {fileID: 1417046428}
+  - component: {fileID: 1417046429}
+  - component: {fileID: 1417046430}
   m_Layer: 0
   m_Name: Main Camera
-  m_TagString: MainCamera
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1841,7 +1933,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1417046422}
   m_LocalRotation: {x: 0.043619405, y: 0, z: 0, w: 0.9990483}
-  m_LocalPosition: {x: 22, y: 297, z: -605}
+  m_LocalPosition: {x: 22, y: 80, z: -605}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1881,7 +1973,7 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
---- !u!114 &1417046428
+--- !u!114 &1417046429
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1890,16 +1982,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 1417046422}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd6141508f5fa654b85c80e8db04dc64, type: 3}
+  m_Script: {fileID: 11500000, guid: 318e52a5632b6084ca9e5c49e0269a86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  orbitSpeed: 4
-  normalDistance: 18
-  zoomDistance: 6
-  smoothSpeed: 1.5
-  currentDistance: 0
-  isZoomed: 0
+  moveSpeed: 50
+--- !u!143 &1417046430
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417046422}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1505762642
 GameObject:
   m_ObjectHideFlags: 0
@@ -1993,7 +2097,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1505762642}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 57, y: 104, z: 282}
+  m_LocalPosition: {x: 57, y: 53, z: 282}
   m_LocalScale: {x: 28.580448, y: 24.82586, z: 45.268642}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2037,6 +2141,7 @@ GameObject:
   - component: {fileID: 1603649526}
   - component: {fileID: 1603649525}
   - component: {fileID: 1603649529}
+  - component: {fileID: 1603649530}
   m_Layer: 0
   m_Name: Rock (1)
   m_TagString: Untagged
@@ -2052,7 +2157,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1603649524}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -2134,6 +2239,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 798ce0f5396e3ef4d95a74f6e7fb17b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1603649530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603649524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0516431c678231348b4e1a2c9481e6d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1860336886
 GameObject:
   m_ObjectHideFlags: 0
@@ -2162,7 +2279,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1860336886}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -2257,6 +2374,7 @@ GameObject:
   - component: {fileID: 1967517324}
   - component: {fileID: 1967517323}
   - component: {fileID: 1967517327}
+  - component: {fileID: 1967517328}
   m_Layer: 0
   m_Name: Rock (4)
   m_TagString: Untagged
@@ -2272,7 +2390,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1967517322}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -2354,6 +2472,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 798ce0f5396e3ef4d95a74f6e7fb17b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1967517328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967517322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0516431c678231348b4e1a2c9481e6d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2132191304
 GameObject:
   m_ObjectHideFlags: 0
@@ -2394,7 +2524,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2132191304}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
